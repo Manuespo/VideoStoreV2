@@ -83,6 +83,15 @@ public class VideoStore {
             return "No Devolutions today";
         else return aux;
     }
+    public void showLastTenRentsOfCustomers()
+    {
+        for (Customer customer:customers) {
+            for (Rent rent:rents) {
+                if (rent.getCustomer().getName().compareTo(customer.getName())==0)
+                    System.out.println(rent);
+            }
+        }
+    }
 
     public ArrayList<Film> getFilms() {
         return films;

@@ -28,10 +28,14 @@ public class Main {
 
     vd.rentByTitle("The Dark Knight","Manuel Esposito",2234484,"Quiroga4265",4);
     vd.rentByTitle("Indiana Jones and the Raiders of the Lost Ark","Juan Perez", 5551234, "Calle 1 #123",3);
+    vd.rentByTitle("The Godfather","Manuel Esposito",2234484,"Quiroga4265",3);
+    vd.rentByTitle("Terminator 2: Judgment Day","Manuel Esposito",2234484,"Quiroga4265",3);
+    vd.rentByTitle("Back to the Future","Manuel Esposito",2234484,"Quiroga4265",3);
     System.out.println(vd.showFilms());
         System.out.println(vd);
         System.out.println(vd.showCustomers());
         System.out.println(vd.showDayDevolutions());
+        vd.showLastTenRentsOfCustomers();
 
     }
 }
