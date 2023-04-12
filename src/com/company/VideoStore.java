@@ -1,5 +1,6 @@
 package com.company;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class VideoStore {
@@ -42,7 +43,7 @@ public class VideoStore {
                 }
             }
         }
-        if (founded==false)
+        if (!founded)
             System.out.println("film not found");
 
     }
@@ -51,17 +52,36 @@ public class VideoStore {
         boolean founded=false;
         Customer aux=new Customer(name,phoneNumber,address);
         for (Customer customer: customers) {
-            if (customer.equals(aux)){
+            if (customer.getName().compareTo(name)==0){
                 founded=true;
             }
         }
-        if (founded==false)
+        if (!founded)
+        {
             return null;
+        }
         else return aux;
     }
     public String showFilms()
     {
         return "Films " + films;
+    }
+    public String showCustomers()
+    {
+        return "Customers " + customers;
+    }
+    public String showDayDevolutions()
+    {
+        String aux="";
+        for (Rent rent: rents) {
+            if (rent.getDueDate().equals(LocalDate.now()))
+            {
+                aux+=rent.toString();
+            }
+        }
+        if (aux.compareTo("")==0)
+            return "No Devolutions today";
+        else return aux;
     }
 
     public ArrayList<Film> getFilms() {
@@ -91,7 +111,7 @@ public class VideoStore {
     @Override
     public String toString() {
         return "VideoStore{" +
-                ", rents=" + rents +
+                " rents=" + rents +
                 '}';
     }
 }
