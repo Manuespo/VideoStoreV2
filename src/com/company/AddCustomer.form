@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.AddCustomer">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="536" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="61381" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="9689d" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <dropMode value="USE_SELECTION"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="84224" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Phone Number"/>
+        </properties>
+      </component>
+      <component id="25e99" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="e4746" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="cf35c" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="b7eec" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="b62ea" class="javax.swing.JLabel" binding="submitSucced">
+        <constraints/>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="e7eae" class="javax.swing.JButton" binding="back">
+        <constraints/>
+        <properties>
+          <text value="Back"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

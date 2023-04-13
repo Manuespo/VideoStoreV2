@@ -1,8 +1,10 @@
 package com.company;
 
+import javax.swing.*;
+
 import static com.company.Category.ACTION;
 
-public class Main {
+public class Main extends JFrame {
 
     public static void main(String[] args) {
     VideoStore vd=new VideoStore();
@@ -55,7 +57,9 @@ public class Main {
         vd.rentByTitle("Bridesmaids","María García",456123789,"Boulevard de las Amigas 34",4);
         vd.rentByTitle("March of the Penguins","Jorge Torres",789456123,"Avenida del Polo Sur 56",3);
         vd.rentByTitle("The Shawshank Redemption","Luisa González",123789654,"Calle de la Esperanza 78",2);
-
+        Window window=new Window();
+        window.setVisible(true);
+    /*
     System.out.println(vd.showFilms());
         System.out.println(vd);
         System.out.println(vd.showCustomers());
@@ -63,6 +67,6 @@ public class Main {
         vd.showLastTenRentsOfCustomers();
         System.out.println(vd.mostRentedFilm());
         vd.searchFilmsByCategory(ACTION);
-
+    */
     }
 }

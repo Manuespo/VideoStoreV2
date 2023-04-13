@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Window">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="79be6" class="javax.swing.JMenuBar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <helpMenu value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="2a20d" class="javax.swing.JMenu" binding="customers" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <text value="Customers"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f3b63" class="javax.swing.JMenuItem" binding="addCustomer">
+                <constraints/>
+                <properties>
+                  <text value="Add Customer"/>
+                </properties>
+              </component>
+              <component id="f59bb" class="javax.swing.JMenuItem" binding="showCustomers">
+                <constraints/>
+                <properties>
+                  <text value="Show Customers"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="80be6" class="javax.swing.JMenu" binding="films" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <text value="Films"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a2cb2" class="javax.swing.JMenuItem" binding="addFilm">
+                <constraints/>
+                <properties>
+                  <text value="Add Film"/>
+                </properties>
+              </component>
+              <component id="9dd72" class="javax.swing.JMenuItem" binding="showFilms">
+                <constraints/>
+                <properties>
+                  <text value="Show Films"/>
+                </properties>
+              </component>
+              <component id="52361" class="javax.swing.JMenuItem" binding="mostRentedFilm">
+                <constraints/>
+                <properties>
+                  <text value="Most rented Film"/>
+                </properties>
+              </component>
+              <component id="19beb" class="javax.swing.JMenuItem" binding="searchFilmsByCategory">
+                <constraints/>
+                <properties>
+                  <text value="Search films by Category"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="4eece" class="javax.swing.JMenu" binding="rents" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <text value="Rents"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b6971" class="javax.swing.JMenuItem" binding="rentByTittle">
+                <constraints/>
+                <properties>
+                  <text value="Rent by tittle"/>
+                </properties>
+              </component>
+              <component id="26ea7" class="javax.swing.JMenuItem" binding="showDayDevolutions">
+                <constraints/>
+                <properties>
+                  <text value="Show day devolutions"/>
+                </properties>
+              </component>
+              <component id="a5e8" class="javax.swing.JMenuItem" binding="showLastTenRentsOfCustomers">
+                <constraints/>
+                <properties>
+                  <text value="Show the last ten rents of customers"/>
+                </properties>
+              </component>
+              <component id="fa42e" class="javax.swing.JMenuItem" binding="showRents">
+                <constraints/>
+                <properties>
+                  <text value="Show Rents"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="7499e" class="javax.swing.JMenuItem" binding="exit">
+            <constraints/>
+            <properties>
+              <text value="Exit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
