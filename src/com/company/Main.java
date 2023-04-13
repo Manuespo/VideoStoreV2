@@ -15,7 +15,7 @@ public class Main {
     vd.addFilm("The Dark Knight", "2008-07-18", 152, 16, "USA", "A masked vigilante battles against crime and corruption in Gotham City.", ACTION, 10);
     vd.addFilm("Indiana Jones and the Raiders of the Lost Ark", "1981-06-12", 115, 7, "USA", "Archaeologist and adventurer Indiana Jones is hired by the US government to find the Ark of the Covenant before the Nazis can get their hands on it.", Category.ADVENTURE, 5);
     vd.addFilm("Bridesmaids", "2011-04-28", 125, 14, "USA", "A maid of honor competes with a bridesmaid for the attention of the bride-to-be's best man.", Category.COMEDY, 8);
-    vd.addFilm("March    of the Penguins", "2005-01-26", 80, 0, "France", "A documentary that follows the life cycle of emperor penguins in Antarctica.", Category.DOCUMENTARY, 3);
+    vd.addFilm("March of the Penguins", "2005-01-26", 80, 0, "France", "A documentary that follows the life cycle of emperor penguins in Antarctica.", Category.DOCUMENTARY, 3);
     vd.addFilm("The Shawshank Redemption", "1994-09-23", 142, 13, "USA", "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.", Category.DRAMA, 12);
     vd.addFilm("Nightmare on Elm Street", "1984-11-16", 91, 18, "USA", "A group of teenagers are terrorized by Freddy Krueger, an evil being from another world who kills them in their dreams.", Category.HORROR, 6);
     vd.addFilm("Die Hard", "1988-07-15", 131, 18, "USA", "John McClane, an off-duty cop, tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.", ACTION, 9);
@@ -35,6 +35,26 @@ public class Main {
     vd.rentByTitle("Back to the Future","Manuel Esposito",2234484,"Quiroga4265",3);
     vd.rentByTitle("Indiana Jones and the Raiders of the Lost Ark","Manuel Esposito",2234484,"Quiroga4265",4);
     vd.rentByTitle("Superbad","Juan Perez", 5551234, "Calle 1 #123",3);
+        vd.rentByTitle("The Dark Knight","David García",145236987,"Calle del Caballero Oscuro 23",3);
+        vd.rentByTitle("Indiana Jones and the Raiders of the Lost Ark","Andrea Pérez",654123789,"Avenida del Arca Perdida 56",2);
+        vd.rentByTitle("Bridesmaids","Marta Torres",369852147,"Calle de las Damas de Honor 78",4);
+        vd.rentByTitle("March of the Penguins","Julián Sánchez",789456123,"Boulevard de los Pingüinos 90",3);
+        vd.rentByTitle("The Shawshank Redemption","Carla Gutiérrez",123789654,"Avenida de la Redención 34",2);
+        vd.rentByTitle("The Dark Knight","Carlos Rodríguez",456123789,"Calle del Joker 67",5);
+        vd.rentByTitle("Indiana Jones and the Raiders of the Lost Ark","Sofía Torres",789456123,"Avenida del Tesoro 12",3);
+        vd.rentByTitle("Bridesmaids","Luisa González",369852147,"Boulevard de las Bodas 56",2);
+        vd.rentByTitle("March of the Penguins","Pedro Martínez",456123789,"Calle del Polo Norte 78",4);
+        vd.rentByTitle("The Shawshank Redemption","Ana García",789456123,"Avenida de la Libertad 90",3);
+        vd.rentByTitle("The Dark Knight","Jorge Torres",123789654,"Boulevard del Enigma 23",2);
+        vd.rentByTitle("Indiana Jones and the Raiders of the Lost Ark","María Pérez",456123789,"Calle del Arqueólogo 34",4);
+        vd.rentByTitle("Bridesmaids","Luis García",789456123,"Avenida de las Despedidas 56",3);
+        vd.rentByTitle("March of the Penguins","Ana Torres",123789654,"Calle de la Antártida 67",2);
+        vd.rentByTitle("The Shawshank Redemption","Sofía Rodríguez",456123789,"Boulevard de la Esperanza 78",4);
+        vd.rentByTitle("The Dark Knight","Juan Pérez",789456123,"Avenida del Murciélago 90",3);
+        vd.rentByTitle("Indiana Jones and the Raiders of the Lost Ark","Pedro Torres",123789654,"Calle del Templo 12",2);
+        vd.rentByTitle("Bridesmaids","María García",456123789,"Boulevard de las Amigas 34",4);
+        vd.rentByTitle("March of the Penguins","Jorge Torres",789456123,"Avenida del Polo Sur 56",3);
+        vd.rentByTitle("The Shawshank Redemption","Luisa González",123789654,"Calle de la Esperanza 78",2);
 
     System.out.println(vd.showFilms());
         System.out.println(vd);
