@@ -92,7 +92,31 @@ public class VideoStore {
             }
         }
     }
-
+    public Film mostRentedFilm()
+    {
+        int maxrent=0;
+        int counter=0;
+        Film maxFilm=rents.get(0).getFilm();
+        for (Film film:films) {
+            counter=0;
+            for (Rent rent:rents) {
+            if (rent.getFilm().equals(film))
+                counter++;
+            }
+            if (counter>maxrent) {
+                maxFilm=film;
+                maxrent=counter;
+            }
+        }
+        return maxFilm;
+    }
+    public void searchFilmsByCategory(Category category)
+    {
+        for (Film film:films) {
+            if (film.getCategory().compareTo(category)==0)
+                System.out.println(film);
+        }
+    }
     public ArrayList<Film> getFilms() {
         return films;
     }
